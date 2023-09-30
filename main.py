@@ -20,7 +20,7 @@ def view_all_products():
         call_menu()
     else:
         for key, value in sorted(price_product.items()):
-            print(f'\n{key.upper()} (стоимость: {value}, количество: {quantity_product[key]})\n')
+            print(f'\n{key.upper()} (стоимость: {value}, количество: {quantity_product[key]})')
 
         print('Что сделать дальше?\n1. Добавить ещё один товар\n2. Выйти в главное меню\n')
 
